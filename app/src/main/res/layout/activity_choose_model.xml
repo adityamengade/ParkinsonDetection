@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Use Relative Layout instead of default constrain layout.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChooseModel">
+
+
+    <Button
+        android:id="@+id/inception_float"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Click a photo" />
+
+    <com.nex3z.fingerpaintview.FingerPaintView
+        android:id="@+id/fpv_paint"
+        android:layout_width="234dp"
+        android:layout_height="228dp"
+        android:layout_gravity="center"
+        android:foreground="@drawable/shape_rect_border"
+        android:layout_marginTop="80dp"
+        android:background="#ffff" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Reset"
+        android:onClick="clearFPV"
+        android:background="#C52323"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="drawclassifier"
+        android:layout_gravity="center"
+        android:text="Classify Drawing" />
+
+
+</LinearLayout>

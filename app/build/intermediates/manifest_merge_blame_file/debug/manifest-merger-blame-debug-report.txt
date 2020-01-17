@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.soumio.inceptiontutorial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml
+10
+11    <!-- Needed to use camera and store photos -->
+12    <uses-feature
+12-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:6:5-8:35
+13        android:name="android.hardware.camera"
+13-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:7:9-47
+14        android:required="true" />
+14-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:8:9-32
+15    <uses-feature
+15-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:9:5-11:35
+16        android:name="android.hardware.camera.any"
+16-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:10:9-51
+17        android:required="true" />
+17-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:11:9-32
+18
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:12:5-81
+19-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:13:5-65
+20-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:13:22-62
+21
+22    <application
+22-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:15:5-32:19
+23        android:allowBackup="true"
+23-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+24-->[com.android.support:support-compat:28.0.0] C:\Users\ADMIN-ADI\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+25        android:debuggable="true"
+26        android:icon="@drawable/logo"
+26-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:17:9-38
+27        android:label="@string/app_name"
+27-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:18:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:19:9-54
+29        android:supportsRtl="true"
+29-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:20:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:21:9-40
+32        <activity android:name="com.aditya.parkinsonD.ChooseModel" >
+32-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:22:9-28:20
+32-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:22:19-67
+33            <intent-filter>
+33-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:23:13-27:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:24:17-69
+34-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:24:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:26:17-77
+36-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:26:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.aditya.parkinsonD.Classify" />
+39-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:29:9-76
+39-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:29:19-64
+40        <!-- cropping activity -->
+41        <activity
+41-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:31:9-118
+42            android:name="com.soundcloud.android.crop.CropImageActivity"
+42-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:31:19-79
+43            android:screenOrientation="portrait" />
+43-->E:\Android proj\TensorFlowLiteInceptionTutorial-master\app\src\main\AndroidManifest.xml:31:80-116
+44    </application>
+45
+46</manifest>
